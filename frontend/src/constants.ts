@@ -1,1 +1,1 @@
-export const apiUrl = 'https://cocktails-api-black.vercel.app';
+export const apiUrl = 'https://111-git-main-kangeldis-projects.vercel.app';
