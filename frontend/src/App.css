@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;;
+  user-select: none;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header{
+  color: #fff;
+  background-color: #f44336;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.header-inner{
+  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.logo {
+  margin-bottom: 50px;
+}
+.logo,
+.header-register,
+.header-login,
+.header-username,
+.header-logout,
+.header-post{
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 5px;
+  padding: 8px 16px;
+}
+.logo:hover,
+.header-register:hover,
+.header-login:hover,
+.header-logout:hover,
+.header-post:hover{
+  background-color: #fff;
+  color: #000;
+}
+.header-logout{
+  cursor: pointer;
+}
+.main {
+  margin-top: 100px;
+  margin-left: 200px;
+  font-size: 28px;
+  padding: 0 10px;
+}
+.titles {
+  color: #f44336;
+  font-size: 48px;
+}
+.hr{
+  width: 50px;
+  border: 5px solid red;
+}
+.posts{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.post-item{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  text-align: center;
+  color: #000;
+  height: 500px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.post-item:hover{
+  background-color: #f1f1f1;
+}
+.post-link{
+  text-decoration: none;
+}
+.post-title{
+  height: 200px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.post-author{
+  font-size: 18px;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: none;
+}
+.post-image{
+  width: 300px;
+  height: 200px;
+}
+.post-date{
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.post-comments{
+  font-size: 13px;
+  margin-top: 6px;
+}
+.post-description{
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.post-wrap{
+  margin: 50px auto;
+  width: 500px;
+}
+.post-one{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.post-one-left{
+  margin-right: 20px;
+}
+.post-one-right{
+  text-align: center;
+}
+.post-one-img{
+  width: 250px;
+  height: 250px;
+}
+.post-one-title{
+  margin: 0 0 10px 0;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.post-one-date{
+  font-size: 22px;
+}
+.post-one-txt{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.form{
+  background: transparent;
+  color: #000;
+  border-color: transparent;
+  width: 500px;
+  min-height: 20vh;;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  padding: 20px 10px;
+}
+.form-title{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #f44336;
+}
+.input-wrap{
+  width: 480px;
+}
+.form-label{
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 18px;
+  color: #ccc
+}
+.form-control{
+  padding: 10px 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.form-control:focus{
+  outline: none;
+}
+.form-control-error{
+  padding: 10px 5px;
+  width: 100%;
+  border: 1px solid #f23637;
+  margin-bottom: 20px;
+}
+.form-control-error:focus{
+  outline: #f23637;
+}
+.error{
+  color: #f23637;
+  font-size: 12px;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.form-btn{
+  background-color: #f44336;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+.form-btn:hover,
+.form-btn:focus{
+  color: #000;
+  background-color: #ccc;
+}
+.comment-form{
+  margin: 0 auto;
+}
+.hi-logo{
+  width: 30px;
+  height: 30px;
+}
+.header-username{
+  text-align: center;
+}
+
+.browse-btn{
+  background-color: #f44336;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.comments{
+  display: flex;
+  flex-direction: column;
+}
+.comments-title{
+  color: #fff;
+  background-color: #f44336;
+  text-align: center;
+}
+.comments-list{
+  display: flex;
+  flex-direction: column;
+}
+.comments-item{
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+  list-style: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.comment-form-title{
+  color: #f23637;
+  font-size: 38px;
+  text-align: center;
+}
