@@ -106,7 +106,6 @@ const NewPostForm = () => {
               Create
             </button>
           </div>
-
     </form>
   );
 };
