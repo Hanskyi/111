@@ -10,13 +10,13 @@ import commentRouter from "./routers/comments";
 const app = express();
 const port = 8000;
 
-// app.use(cors(
-//     {
-//         origin: ['http://localhost:3000'],
-//         methods:['GET,HEAD,PUT,PATCH,POST,DELETE'],
-//         credentials: true
-//     }
-// ));
+app.use(cors(
+    {
+        origin: ['http://localhost:3000'],
+        methods:['GET,HEAD,PUT,PATCH,POST,DELETE'],
+        credentials: true
+    }
+));
 
 app.use((req, res, next) => {
     res.setHeader(
