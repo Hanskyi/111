@@ -14,7 +14,8 @@ app.use(cors(
     {
         origin: ['http://111-me2a-plt62ulws-kangeldis-projects.vercel.app'],
         methods:['GET, HEAD, PUT, PATCH, POST, DELETE'],
-        credentials: true
+        credentials: true,
+        optionsSuccessStatus: 204,
     }
 ));
 app.use(express.static('public'));
