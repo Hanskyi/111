@@ -13,7 +13,7 @@ const port = 8000;
 app.use(cors(
     {
         origin: ['https://111-me2a-kangeldis-projects.vercel.app'],
-        methods:['GET, HEAD, PUT, PATCH, POST, DELETE'],
+        methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
         credentials: true,
     }
 ));
