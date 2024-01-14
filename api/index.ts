@@ -17,7 +17,7 @@ app.use(cors(
         credentials: true,
     }
 ));
-app.use(express.static('public'));
+app.use('/public', express.static('public'));
 app.use(express.json());
 app.use('/posts', postRouter);
 app.use('/comments', commentRouter);
