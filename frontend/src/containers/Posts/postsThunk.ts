@@ -34,7 +34,7 @@ export const createPosts = createAsyncThunk<void, IPostMutation, { state: RootSt
     'posts/create',
     async (data, thunkAPI) => {
       const formData = new FormData();
-      console.log(data);
+      console.log(thunkAPI);
       const keys = Object.keys(data) as (keyof IPostMutation)[];
 
       keys.forEach(key => {
