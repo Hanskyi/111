@@ -12,10 +12,9 @@ const port = 8000;
 
 app.use(cors(
     {
-        origin: ['https://111-me2a-plt62ulws-kangeldis-projects.vercel.app'],
+        origin: ['https://111-me2a-kangeldis-projects.vercel.app'],
         methods:['GET, HEAD, PUT, PATCH, POST, DELETE'],
         credentials: true,
-        optionsSuccessStatus: 204,
     }
 ));
 app.use(express.static('public'));
