@@ -10,6 +10,7 @@ export const getPosts = createAsyncThunk<Post[]>(
     if (!data) {
       return [];
     }
+    console.log(data);
     return data;
   }
 );
